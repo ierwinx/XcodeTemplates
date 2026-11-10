@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>Module</string>
+	<key>Definitions</key>
+	<dict>
+		<key>View/___VARIABLE_productName___View.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___VARIABLE_productName___View.swift</string>
+		</dict>
+		<key>ViewModel/___VARIABLE_productName___ViewModel.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___VARIABLE_productName___ViewModel.swift</string>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Módulo MVVM SwiftUI (View, ViewModel) con @Observable, iOS 17+</string>
+	<key>Identifier</key>
+	<string>com.ierwinx.file.mvvmmodule.swiftui</string>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFile</key>
+	<string>___VARIABLE_productName___View.swift</string>
+	<key>Nodes</key>
+	<array>
+		<string>ViewModel/___VARIABLE_productName___ViewModel.swift</string>
+		<string>View/___VARIABLE_productName___View.swift</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Nombre del módulo (ej. Login)</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>Module:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Summary</key>
+	<string>Módulo MVVM SwiftUI (View, ViewModel) con @Observable, iOS 17+</string>
+</dict>
+</plist>

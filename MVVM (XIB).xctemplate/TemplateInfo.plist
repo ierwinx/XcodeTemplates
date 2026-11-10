@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>Module</string>
+	<key>Definitions</key>
+	<dict>
+		<key>Model/___VARIABLE_productName___Model.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___VARIABLE_productName___Model.swift</string>
+		</dict>
+		<key>View/___VARIABLE_productName___ViewController.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___VARIABLE_productName___ViewController.swift</string>
+		</dict>
+		<key>View/___VARIABLE_productName___ViewController.xib</key>
+		<dict>
+			<key>Path</key>
+			<string>___VARIABLE_productName___ViewController.xib</string>
+		</dict>
+		<key>ViewModel/___VARIABLE_productName___ViewModel.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___VARIABLE_productName___ViewModel.swift</string>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Módulo MVVM (Model, ViewModel, ViewController) con XIB</string>
+	<key>Identifier</key>
+	<string>com.ierwinx.file.mvvmmodule.xib</string>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFile</key>
+	<string>___VARIABLE_productName___ViewController.swift</string>
+	<key>Nodes</key>
+	<array>
+		<string>Model/___VARIABLE_productName___Model.swift</string>
+		<string>ViewModel/___VARIABLE_productName___ViewModel.swift</string>
+		<string>View/___VARIABLE_productName___ViewController.swift</string>
+		<string>View/___VARIABLE_productName___ViewController.xib</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Nombre del módulo (ej. Login)</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>Module:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<integer>4</integer>
+	<key>Summary</key>
+	<string>Módulo MVVM (Model, ViewModel, ViewController) con XIB</string>
+</dict>
+</plist>

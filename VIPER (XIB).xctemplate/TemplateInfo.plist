@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>Module</string>
+	<key>Definitions</key>
+	<dict>
+		<key>Contract/___VARIABLE_productName___Protocols.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___VARIABLE_productName___Protocols.swift</string>
+		</dict>
+		<key>Entity/___VARIABLE_productName___Entity.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___VARIABLE_productName___Entity.swift</string>
+		</dict>
+		<key>Interactor/___VARIABLE_productName___Interactor.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___VARIABLE_productName___Interactor.swift</string>
+		</dict>
+		<key>Presenter/___VARIABLE_productName___Presenter.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___VARIABLE_productName___Presenter.swift</string>
+		</dict>
+		<key>Router/___VARIABLE_productName___Router.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___VARIABLE_productName___Router.swift</string>
+		</dict>
+		<key>View/___VARIABLE_productName___ViewController.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___VARIABLE_productName___ViewController.swift</string>
+		</dict>
+		<key>View/___VARIABLE_productName___ViewController.xib</key>
+		<dict>
+			<key>Path</key>
+			<string>___VARIABLE_productName___ViewController.xib</string>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Módulo VIPER (View, Interactor, Presenter, Entity, Router + Protocols) con XIB</string>
+	<key>Identifier</key>
+	<string>com.ierwinx.file.vipermodule.xib</string>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFile</key>
+	<string>___VARIABLE_productName___ViewController.swift</string>
+	<key>Nodes</key>
+	<array>
+		<string>Contract/___VARIABLE_productName___Protocols.swift</string>
+		<string>View/___VARIABLE_productName___ViewController.swift</string>
+		<string>Presenter/___VARIABLE_productName___Presenter.swift</string>
+		<string>Interactor/___VARIABLE_productName___Interactor.swift</string>
+		<string>Router/___VARIABLE_productName___Router.swift</string>
+		<string>Entity/___VARIABLE_productName___Entity.swift</string>
+		<string>View/___VARIABLE_productName___ViewController.xib</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Nombre del módulo (ej. Login)</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>Module:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<integer>6</integer>
+	<key>Summary</key>
+	<string>Módulo VIPER (View, Interactor, Presenter, Entity, Router + Protocols) con XIB</string>
+</dict>
+</plist>

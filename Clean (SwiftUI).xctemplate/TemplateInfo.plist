@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>Module</string>
+	<key>Definitions</key>
+	<dict>
+		<key>Domain/___VARIABLE_productName___Entity.swift</key>
+		<dict><key>Path</key><string>___VARIABLE_productName___Entity.swift</string></dict>
+		<key>Domain/___VARIABLE_productName___Repository.swift</key>
+		<dict><key>Path</key><string>___VARIABLE_productName___Repository.swift</string></dict>
+		<key>Domain/___VARIABLE_productName___UseCase.swift</key>
+		<dict><key>Path</key><string>___VARIABLE_productName___UseCase.swift</string></dict>
+		<key>Data/___VARIABLE_productName___RepositoryImpl.swift</key>
+		<dict><key>Path</key><string>___VARIABLE_productName___RepositoryImpl.swift</string></dict>
+		<key>Presentation/___VARIABLE_productName___ViewModel.swift</key>
+		<dict><key>Path</key><string>___VARIABLE_productName___ViewModel.swift</string></dict>
+		<key>Presentation/___VARIABLE_productName___View.swift</key>
+		<dict><key>Path</key><string>___VARIABLE_productName___View.swift</string></dict>
+	</dict>
+	<key>Description</key>
+	<string>Módulo Clean (SwiftUI): Presentation, Domain, Data con @Observable, iOS 17+</string>
+	<key>Identifier</key>
+	<string>com.ierwinx.file.cleanmodule.swiftui</string>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFile</key>
+	<string>___VARIABLE_productName___View.swift</string>
+	<key>Nodes</key>
+	<array>
+		<string>Domain/___VARIABLE_productName___Entity.swift</string>
+		<string>Domain/___VARIABLE_productName___Repository.swift</string>
+		<string>Domain/___VARIABLE_productName___UseCase.swift</string>
+		<string>Data/___VARIABLE_productName___RepositoryImpl.swift</string>
+		<string>Presentation/___VARIABLE_productName___ViewModel.swift</string>
+		<string>Presentation/___VARIABLE_productName___View.swift</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Nombre del módulo (ej. Login)</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>Module:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<integer>2</integer>
+	<key>Summary</key>
+	<string>Módulo Clean (SwiftUI): Presentation, Domain, Data con @Observable, iOS 17+</string>
+</dict>
+</plist>
