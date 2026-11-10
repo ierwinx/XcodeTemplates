@@ -56,6 +56,42 @@ flowchart LR
     end
 ```
 
+### 🏗️ Capas del template MVVM (SwiftUI y UIKit)
+
+```mermaid
+flowchart LR
+    V[View / ViewController] -->|acciones| VM[ViewModel]
+    VM -.->|estado / bindings| V
+    VM --> M[Model]
+
+    subgraph Presentation
+        V
+        VM
+    end
+    subgraph Data
+        M
+    end
+```
+
+> [!NOTE]
+> En **SwiftUI** la `View` observa al `ViewModel` (`@Observable`). En **UIKit** (Storyboard/XIB) el `ViewController` se enlaza mediante closures (`onLoadingChanged`, `onError`, `onDataChanged`).
+
+### 🏗️ Capas del template VIPER (UIKit)
+
+```mermaid
+flowchart LR
+    V[View<br/>ViewController] -->|eventos| P[Presenter]
+    P -->|updates UI| V
+    P -->|fetchData| I[Interactor]
+    I -->|didFetchData / didFail| P
+    I --> E[Entity]
+    P -->|navegación| R[Router]
+    R -.createModule.-> V
+```
+
+> [!NOTE]
+> Todos los contratos (`ViewProtocol`, `PresenterProtocol`, `InteractorInputProtocol`, `InteractorOutputProtocol`, `RouterProtocol`) viven en el archivo `Protocols`.
+
 ---
 
 ## 📦 Requisitos
